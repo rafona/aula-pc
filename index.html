@@ -2,11 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Delicious Food</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        .menu-item {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #ddd;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #ccc;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Delicious Food</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Welcome to Delicious Food</h2>
+        <p>Explore our delicious menu and enjoy the finest dishes made with love.</p>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <h3>Spaghetti Carbonara</h3>
+            <p>Classic Italian pasta with creamy sauce, pancetta, and Parmesan cheese.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Margherita Pizza</h3>
+            <p>Delicious pizza topped with tomato sauce, fresh mozzarella, and basil.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Caesar Salad</h3>
+            <p>Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Delicious Food, we are passionate about providing high-quality, tasty dishes made from the freshest ingredients. Our chefs create culinary masterpieces to delight your taste buds.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, please reach out to us at <a href="mailto:info@deliciousfood.com">info@deliciousfood.com</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Delicious Food. All rights reserved.</p>
+    </footer>
 </body>
 </html>
